@@ -1,0 +1,36 @@
+.lista {
+    list-style-type: none;
+    background-color: lightskyblue;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+}
+    
+.lista-item {
+    flex-grow: 1;
+    border-right: 2px solid white;
+}
+
+.lista-item {
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.lista_item-link:hover {
+    text-decoration: underline;
+    background-color: var(--gris);
+}
+
+@media (max-width: 767px) {
+    .lista{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .lista_item-link{
+        text-align: center;
+    }
+}
