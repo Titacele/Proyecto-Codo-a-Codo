@@ -2,7 +2,10 @@
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
-    
+}
+
+body{
+    background-color: snow;
 }
 
 .cabecera{
@@ -18,7 +21,7 @@ h1{
 
 .lista {
     list-style-type: none;
-    background-color: lightskyblue;
+    background-color: coral;
     display: flex;
     margin: 10px;
     border-radius: 10px;
@@ -29,7 +32,7 @@ h1{
     border-right: 2px solid white;
 }
 
-.lista-item {
+.lista-item_link {
     display: block;
     padding: 8px 0;
     text-align: center;
@@ -54,9 +57,10 @@ h1{
 }
 
 .slider{
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 300px;
     overflow: hidden;
+    margin-left: 80px;
   }
   .slider ul{
       display: flex;
@@ -92,4 +96,18 @@ h1{
   .slider, .slider ul, .slider img{
       height: 100vh;
   }
+}
+
+h2{
+    font-family: 'Water Brush', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 20%;
 }
