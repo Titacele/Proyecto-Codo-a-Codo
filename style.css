@@ -23,7 +23,7 @@ h1{
     list-style-type: none;
     background-color: coral;
     display: flex;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
 }
     
@@ -105,9 +105,15 @@ h2{
 }
 
 p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 footer{
     margin-top: 20%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
 }

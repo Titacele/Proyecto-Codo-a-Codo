@@ -36,38 +36,27 @@
         </ul>
     </nav>
 
-    <div class="slider">
-        <ul>
-            <li>
-                <img src="images/Golosinas-1.jpeg">
-            </li>
-            <li>
-                <img src="images/Golosinas-2.jpeg">
-            </li>
-            <li>
-                <img src="images/Golosinas-3.jpeg">
-            </li>
-            <li>
-                <img src="images/Golosinas-4.jpeg">
-            </li>
-        </ul>
-    </div>
-    
-    <section class="descripcion">
-        <h2>Venta de golosinas a domicilio</h2>
-        <br>
-        <p>"Dulzura puerta a puerta"</p>
-        <p>Un dulce momeno a solo un click</p>
-        <p>Elegi lo que te guste, cargalo al carrito y te lo llevamos.</p>
-    </section>
+    <div class="formulario" id="formulario">
+        <form action="contacto.js">
 
-    <footer>
-        <hr>
-        <p>Derechos reservados.</p>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-    </footer>
-    
+            <label>
+                Nombre:
+                <input type="text" name= "ingreso" required>
+            </label><br>
+            <label class="etiquetas">
+                E-mail:
+                <input type="email" neme= "ingreso" required>
+            </label><br>
+            <label>
+                Asunto:
+                <input type="texto" name= "ingreso" required>
+            </label><br>
+            <label>
+                Consulta:
+                <br>
+                <textarea name= "texto" cols="30" rows="10"></textarea>
+            </label><br>
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+    </div> 
 </body>
-</html>
