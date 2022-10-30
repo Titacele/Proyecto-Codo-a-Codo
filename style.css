@@ -108,6 +108,11 @@ p{
     font-size: 20px;
 }
 
+.productos{
+    margin: 5px;
+    border-radius: 10px;
+}
+
 footer{
     margin-top: 20%;
     font-size: 10px;
