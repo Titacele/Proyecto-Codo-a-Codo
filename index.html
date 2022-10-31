@@ -19,7 +19,7 @@
         </div>
     </heder>
 
-    <nav>
+    <nav class="navegacion">
         <ul class="lista">
              <li class="lista-item">
                  <a href="index.html" class="lista-item_link">Inicio</a>
@@ -59,7 +59,20 @@
         <p>"Dulzura de puerta en puerta"</p>
         <p>Un dulce momento a solo un click</p>
         <p>Elegi lo que te guste, cargalo al carrito y te lo llevamos a tu domicilio.</p>
-    
+        <br>
+    </section>
+
+    <section class="mapa">
+        <iframe class="uno" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26483397804!2d-58.50333885521072!3d-34.61580373588428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1667254151744!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="dos">
+        <strong>Ud. esta en:</strong><br>
+        Latitud: <span id="lat"></span><br/>
+        Longitud:<span id="lon"></span><br/>
+        Velocidad:<span id="cit"></span><br/>
+        <br>
+        Y nosotros llegamos....
+        </p>
+    </section>
         
 
     <footer>
@@ -70,5 +83,6 @@
         <i class="fa-brands fa-twitter"></i>
     </footer>
     
+    <script src="api.js"></script>
 </body>
 </html>
