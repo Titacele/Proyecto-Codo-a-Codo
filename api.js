@@ -1,10 +1,15 @@
-const api_url = "http://www.mapquestapi.com/geocoding/v1/address?key=IlEDkyMSMJDQAyEmElGzYuen8SCfLR0W&location=1600+Pennsylvania+Ave+NW,Washington,DC,20500"
+const api_url = 'https://get.geojs.io/v1/ip/geo.json';
 
-async function mapas (){
-    const response = await fetch (api_url)
-    const data = await response.json()
-    console.log (data)
-}
-mapas ()
+   async function obtenerPosicion(){
+        const response = await fetch(api_url);
+        const data =  await response.json();
+        const {latitude, longitude, city} = data;
 
+        //console.log(data);
+        
+        document.getElementById('lat').textContent=latitude;
+        document.getElementById('lon').textContent=longitude;
+        document.getElementById('cit').textContent=city;
+    }
 
+    obtenerPosicion();
