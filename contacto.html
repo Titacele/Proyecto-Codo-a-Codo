@@ -37,26 +37,28 @@
     </nav>
    
     <div class="formulario" id="formulario">
-        <form action="contacto.js">
+        <form action="https://formspree.io/f/meqdrdrk" method="POST">
 
             <label>
                 Nombre:
-                <input type="text" name= "ingreso" required>
+                <input type="text" name= "name" required placeholder="Juan">
             </label><br>
             <label class="etiquetas">
                 E-mail:
-                <input type="email" neme= "ingreso" required>
+                <input type="email" neme= "mail" required placeholder="juan@gmail.com">
             </label><br>
             <label>
                 Asunto:
-                <input type="texto" name= "ingreso" required>
+                <input type="text" name= "subjet" required placeholder="Consulta">
             </label><br>
             <label>
                 Consulta:
                 <br>
                 <textarea name= "texto" cols="30" rows="10"></textarea>
             </label><br>
-            <input type="submit" name="enviar" value="Enviar">
+            <input type="submit" name="enviar" value="Enviar" onclick="cleanData()">
         </form>
     </div> 
+<script src="contacto.js"></script>
+
 </body>
