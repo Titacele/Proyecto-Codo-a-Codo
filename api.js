@@ -1,4 +1,4 @@
-const api_url = "http://www.mapquestapi.com/geocoding/v1/address?key=IlEDkyMSMJDQAyEmElGzYuen8SCfLR0W&location=1600+Pennsylvania+Ave+NW,Washington,DC,20500"
+const api_url = "https://api.geoconcept.com/EU/GCW/geoconcept-web/wmts/STANDARD/STANDARD/epsg:3857/11/707/1036.png"
 
 async function mapas (){
     const response = await fetch (api_url)
